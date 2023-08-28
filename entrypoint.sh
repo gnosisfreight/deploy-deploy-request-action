@@ -14,5 +14,5 @@ fi
 
 if [ "true" == "$4" ];then
   . /.pscale/cli-helper-scripts/wait-for-deploy-request-merged.sh
-  wait_for_deploy_request_merged 9 "$1" "$2" "$3" 60
+  wait_for_deploy_request_merged 15 "$1" "$2" "$3" 120
 fi
